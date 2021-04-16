@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?b6f204210c769c7c2df73d6a8e9317e9") format("truetype"),
+url("./flaticon.woff?b6f204210c769c7c2df73d6a8e9317e9") format("woff"),
+url("./flaticon.woff2?b6f204210c769c7c2df73d6a8e9317e9") format("woff2"),
+url("./flaticon.eot?b6f204210c769c7c2df73d6a8e9317e9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b6f204210c769c7c2df73d6a8e9317e9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-coffee-cup:before {
+    content: "\f101";
+}
+.flaticon-comment:before {
+    content: "\f102";
+}
+.flaticon-folder:before {
+    content: "\f103";
+}
+.flaticon-heart:before {
+    content: "\f104";
+}
+.flaticon-layers:before {
+    content: "\f105";
+}
+.flaticon-link:before {
+    content: "\f106";
+}
+.flaticon-pen:before {
+    content: "\f107";
+}
+.flaticon-play-button:before {
+    content: "\f108";
+}
+.flaticon-reception-bell:before {
+    content: "\f109";
+}
+.flaticon-right-arrow:before {
+    content: "\f10a";
+}
+.flaticon-search:before {
+    content: "\f10b";
+}
+.flaticon-settings:before {
+    content: "\f10c";
+}
+.flaticon-users:before {
+    content: "\f10d";
+}

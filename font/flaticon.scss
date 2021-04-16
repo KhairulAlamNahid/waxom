@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b6f204210c769c7c2df73d6a8e9317e9") format("truetype"),
+url("./flaticon.woff?b6f204210c769c7c2df73d6a8e9317e9") format("woff"),
+url("./flaticon.woff2?b6f204210c769c7c2df73d6a8e9317e9") format("woff2"),
+url("./flaticon.eot?b6f204210c769c7c2df73d6a8e9317e9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b6f204210c769c7c2df73d6a8e9317e9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "coffee-cup": "\f101",
+    "comment": "\f102",
+    "folder": "\f103",
+    "heart": "\f104",
+    "layers": "\f105",
+    "link": "\f106",
+    "pen": "\f107",
+    "play-button": "\f108",
+    "reception-bell": "\f109",
+    "right-arrow": "\f10a",
+    "search": "\f10b",
+    "settings": "\f10c",
+    "users": "\f10d",
+);
+
+.flaticon-coffee-cup:before {
+    content: map-get($flaticon-map, "coffee-cup");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-folder:before {
+    content: map-get($flaticon-map, "folder");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-link:before {
+    content: map-get($flaticon-map, "link");
+}
+.flaticon-pen:before {
+    content: map-get($flaticon-map, "pen");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-reception-bell:before {
+    content: map-get($flaticon-map, "reception-bell");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-users:before {
+    content: map-get($flaticon-map, "users");
+}
