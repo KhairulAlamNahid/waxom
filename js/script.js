@@ -51,7 +51,7 @@ $(function () {
     });
 
     // wow js
-    new WOW().init();
+    // new WOW().init();
 
     // scroll down js
     $(function () {
@@ -62,8 +62,38 @@ $(function () {
     });
 
     // preloader js
-    $(window).on('load', function () {
-        $('.preloader').delay(2000).fadeOut(800);
-    })
+    // $(window).on('load', function () {
+    //     $('.preloader').delay(2000).fadeOut(800);
+    // })
 
+    // post slider js
+    $('.post-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        responsive: [
+            {
+                breakpoint: 481,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    });
 });
