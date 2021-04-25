@@ -222,10 +222,10 @@
     }
     /* banner part css */
     #banner {
-        height: 70vh;
+        height: 75vh;
     }
     #banner .overlay .banner_text {
-        height: 80vh;
+        height: 90vh;
     }
     #banner .overlay h2 {
         font-size: 20px;
